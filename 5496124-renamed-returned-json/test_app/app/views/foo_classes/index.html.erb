@@ -1,0 +1,24 @@
+<h1>Listing foo_classes</h1>
+
+<table>
+  <tr>
+    <th>String</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @foo_classes.each do |foo_class| %>
+  <tr>
+    <td><%= foo_class.title %></td>
+    <td><%= link_to 'Show', foo_class %></td>
+    <td><%= link_to 'Edit', edit_foo_class_path(foo_class) %></td>
+    <td><%= link_to 'Destroy', foo_class, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Foo class', new_foo_class_path %>
+
