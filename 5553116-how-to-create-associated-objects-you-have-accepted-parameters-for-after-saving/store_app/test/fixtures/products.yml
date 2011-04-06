@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  style_no: 1
+  market_price: 1
+  designer: MyString
+  short_description: MyString
+  description: MyString
+
+two:
+  style_no: 1
+  market_price: 1
+  designer: MyString
+  short_description: MyString
+  description: MyString

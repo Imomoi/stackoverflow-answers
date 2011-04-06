@@ -1,0 +1,10 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+client_2:
+  key: client_2
+  secret: client_secret_2
+
+two:
+  key: MyString
+  secret: MyString
+

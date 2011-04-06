@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  product: 
+  size: 1
+  count_on_hand: 1
+
+two:
+  product: 
+  size: 1
+  count_on_hand: 1
